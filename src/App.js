@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
-
 import { Divider } from 'semantic-ui-react';
-
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Case from './components/Case';
 import CountrySelector from './components/CountrySelector';
@@ -14,6 +13,7 @@ function App() {
       <Case />
       <Divider hidden />
       <CountrySelector />
+      <Footer />
     </div>
   );
 }
